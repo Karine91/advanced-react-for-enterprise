@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "stylelint \"./**/*.scss\"",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
