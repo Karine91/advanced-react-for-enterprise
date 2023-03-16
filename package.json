@@ -19,5 +19,8 @@
   "private": true,
   "scripts": {
     "build": "yarn lerna run build"
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
   }
 }
