@@ -10,11 +10,12 @@
   },
   "workspaces": {
     "packages": [
-    "packages/*"
-  ],
-  "nohoist": [
-    "**/normalize.css"
-  ]
+      "packages/*",
+      "playgrounds/*"
+    ],
+    "nohoist": [
+      "**/normalize.css"
+    ]
   },
   "private": true,
   "scripts": {
