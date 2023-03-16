@@ -1,0 +1,30 @@
+{
+  "name": "@ds.e/scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"./**/*.scss\"",
+    "lint:fix": "yarn lint --fix",
+    "prepare": "husky install",
+    "build": "node src/scripts/build.js"
+  },
+  "author": "karine <gulkarine@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-prettier": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
+  },
+  "repository": "https://github.com/Karine91/advanced-react-for-enterprise.git"
+}
