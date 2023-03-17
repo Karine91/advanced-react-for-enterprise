@@ -7,17 +7,21 @@
     "lint": "stylelint \"./**/*.scss\"",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
-    "build": "node src/scripts/build.js"
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "author": "karine <gulkarine@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "normalize.css": "^8.0.1",
+    "postcss": "8.3.11",
+    "postcss-scss": "^4.0.6",
     "sass": "^1.59.3"
   },
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
+    "nodemon": "^2.0.21",
     "prettier": "^2.8.4",
     "stylelint": "^15.2.0",
     "stylelint-config-sass-guidelines": "^10.0.0",
@@ -25,6 +29,9 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
+  },
+  "resolutions": {
+    "postcss": "^8.3.11"
   },
   "repository": "https://github.com/Karine91/advanced-react-for-enterprise.git"
 }

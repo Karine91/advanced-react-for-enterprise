@@ -1,2 +1,3 @@
-import Button from "./atoms/Button";
-export { Button };
+import Color from "./atoms/Color";
+import Text from './atoms/Text';
+export { Color, Text };

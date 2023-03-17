@@ -6,6 +6,6 @@
 
   background: $btn-primary-bg;
   color: $btn-primary-color;
-  border: none;
+  border: 0;
   padding: map.get($map: $spacing, $key: "xxxs");
 }

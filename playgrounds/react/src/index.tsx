@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
 
-import { Button } from '@ds.e/react';
-import "@ds.e/scss/lib/Button.css"
+import { Color, Spacing } from '@ds.e/react';
+import "@ds.e/scss/lib/Utilities.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
-root.render(<Button label='Example Button' />)
+root.render(<Color hexCode="#000" width={Spacing.sm} height={Spacing.sm} />);
+
