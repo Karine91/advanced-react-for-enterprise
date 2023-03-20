@@ -1,1 +1,0 @@
-declare module '@ds.e/scss/src/foundation/_variables.scss';

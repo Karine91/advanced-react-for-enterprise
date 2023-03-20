@@ -124,6 +124,7 @@ $breakpoints: (
 =            Spacing                          =
 =============================================*/
 $spacing: (
+  none: 0rem,
   xxxs: 0.25rem,
   /* 4px,*/ xxs: 0.5rem,
   /* 8px,*/ xs: 0.75rem,
@@ -137,3 +138,7 @@ $spacing: (
 ) !default;
 
 /*=====  End of Spacing                ======*/
+
+$shadows: (
+  base: 0px 4px 11px rgba(157, 157, 157, 0.21),
+);

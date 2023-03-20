@@ -102,6 +102,14 @@
  * styles for components.
  *
  */
+.dse-width-none {
+  width: 0rem;
+}
+
+.dse-height-none {
+  height: 0rem;
+}
+
 .dse-width-xxxs {
   width: 0.25rem;
 }
