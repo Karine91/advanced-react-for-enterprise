@@ -28889,7 +28889,7 @@ if ("development" === 'production') {
     }
   };
 }
-},{"react-dom":"../../../node_modules/react-dom/index.js"}],"../../../node_modules/@ds.e/foundation/lib/FontSize.js":[function(require,module,exports) {
+},{"react-dom":"../../../node_modules/react-dom/index.js"}],"../../../node_modules/@gkarine/foundation/lib/FontSize.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28905,7 +28905,7 @@ const fontSizes = {
 };
 var _default = Object.freeze(fontSizes);
 exports.default = _default;
-},{}],"../../../node_modules/@ds.e/foundation/lib/Spacing.js":[function(require,module,exports) {
+},{}],"../../../node_modules/@gkarine/foundation/lib/Spacing.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28926,7 +28926,7 @@ const spaces = {
 };
 var _default = Object.freeze(spaces);
 exports.default = _default;
-},{}],"../../../node_modules/@ds.e/foundation/lib/index.js":[function(require,module,exports) {
+},{}],"../../../node_modules/@gkarine/foundation/lib/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28947,7 +28947,7 @@ Object.defineProperty(exports, "Spacing", {
 var _FontSize = _interopRequireDefault(require("./FontSize"));
 var _Spacing = _interopRequireDefault(require("./Spacing"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./FontSize":"../../../node_modules/@ds.e/foundation/lib/FontSize.js","./Spacing":"../../../node_modules/@ds.e/foundation/lib/Spacing.js"}],"../../../node_modules/@ds.e/react/lib/atoms/Color/Color.js":[function(require,module,exports) {
+},{"./FontSize":"../../../node_modules/@gkarine/foundation/lib/FontSize.js","./Spacing":"../../../node_modules/@gkarine/foundation/lib/Spacing.js"}],"../../../node_modules/@gkarine/react/lib/atoms/Color/Color.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28955,7 +28955,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-var _foundation = require("@ds.e/foundation");
+var _foundation = require("@gkarine/foundation");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Color = ({
   hexCode,
@@ -28972,7 +28972,7 @@ const Color = ({
 };
 var _default = Color;
 exports.default = _default;
-},{"react":"../../../node_modules/react/index.js","@ds.e/foundation":"../../../node_modules/@ds.e/foundation/lib/index.js"}],"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","@gkarine/foundation":"../../../node_modules/@gkarine/foundation/lib/index.js"}],"../../../node_modules/@gkarine/react/lib/atoms/Text/Text.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28980,7 +28980,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-var _foundation = require("@ds.e/foundation");
+var _foundation = require("@gkarine/foundation");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Text = ({
   size = _foundation.FontSize.base,
@@ -28993,7 +28993,7 @@ const Text = ({
 };
 var _default = Text;
 exports.default = _default;
-},{"react":"../../../node_modules/react/index.js","@ds.e/foundation":"../../../node_modules/@ds.e/foundation/lib/index.js"}],"../../../node_modules/@ds.e/react/lib/atoms/Margin/Margin.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","@gkarine/foundation":"../../../node_modules/@gkarine/foundation/lib/index.js"}],"../../../node_modules/@gkarine/react/lib/atoms/Margin/Margin.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29032,7 +29032,7 @@ const Margin = ({
 };
 var _default = Margin;
 exports.default = _default;
-},{"react":"../../../node_modules/react/index.js"}],"../../../node_modules/@ds.e/react/lib/molecules/Select/Select.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js"}],"../../../node_modules/@gkarine/react/lib/molecules/Select/Select.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29217,7 +29217,7 @@ const Select = ({
 };
 var _default = Select;
 exports.default = _default;
-},{"react":"../../../node_modules/react/index.js","../../atoms/Text/Text.js":"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js"}],"../../../node_modules/@ds.e/react/lib/index.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","../../atoms/Text/Text.js":"../../../node_modules/@gkarine/react/lib/atoms/Text/Text.js"}],"../../../node_modules/@gkarine/react/lib/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29252,7 +29252,7 @@ var _Text = _interopRequireDefault(require("./atoms/Text/Text.js"));
 var _Margin = _interopRequireDefault(require("./atoms/Margin/Margin.js"));
 var _Select = _interopRequireDefault(require("./molecules/Select/Select.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./atoms/Color/Color.js":"../../../node_modules/@ds.e/react/lib/atoms/Color/Color.js","./atoms/Text/Text.js":"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js","./atoms/Margin/Margin.js":"../../../node_modules/@ds.e/react/lib/atoms/Margin/Margin.js","./molecules/Select/Select.js":"../../../node_modules/@ds.e/react/lib/molecules/Select/Select.js"}],"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"./atoms/Color/Color.js":"../../../node_modules/@gkarine/react/lib/atoms/Color/Color.js","./atoms/Text/Text.js":"../../../node_modules/@gkarine/react/lib/atoms/Text/Text.js","./atoms/Margin/Margin.js":"../../../node_modules/@gkarine/react/lib/atoms/Margin/Margin.js","./molecules/Select/Select.js":"../../../node_modules/@gkarine/react/lib/molecules/Select/Select.js"}],"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -29303,31 +29303,31 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../node_modules/@ds.e/scss/lib/Utilities.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../node_modules/@gkarine/scss/lib/Utilities.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/scss/lib/Text.css":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@gkarine/scss/lib/Text.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/scss/lib/global.css":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@gkarine/scss/lib/global.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/scss/lib/Margin.css":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@gkarine/scss/lib/Margin.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/scss/lib/Select.css":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@gkarine/scss/lib/Select.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -29338,12 +29338,12 @@ module.exports = reloadCSS;
 
 var _react = _interopRequireDefault(require("react"));
 var _client = _interopRequireDefault(require("react-dom/client"));
-var _react2 = require("@ds.e/react");
-require("@ds.e/scss/lib/Utilities.css");
-require("@ds.e/scss/lib/Text.css");
-require("@ds.e/scss/lib/global.css");
-require("@ds.e/scss/lib/Margin.css");
-require("@ds.e/scss/lib/Select.css");
+var _react2 = require("@gkarine/react");
+require("@gkarine/scss/lib/Utilities.css");
+require("@gkarine/scss/lib/Text.css");
+require("@gkarine/scss/lib/global.css");
+require("@gkarine/scss/lib/Margin.css");
+require("@gkarine/scss/lib/Select.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var options = [{
   label: 'Strict Black',
@@ -29363,7 +29363,7 @@ root.render(_react.default.createElement("div", {
 }, _react.default.createElement(_react2.Select, {
   options: options
 })));
-},{"react":"../../../node_modules/react/index.js","react-dom/client":"../../../node_modules/react-dom/client.js","@ds.e/react":"../../../node_modules/@ds.e/react/lib/index.js","@ds.e/scss/lib/Utilities.css":"../../../node_modules/@ds.e/scss/lib/Utilities.css","@ds.e/scss/lib/Text.css":"../../../node_modules/@ds.e/scss/lib/Text.css","@ds.e/scss/lib/global.css":"../../../node_modules/@ds.e/scss/lib/global.css","@ds.e/scss/lib/Margin.css":"../../../node_modules/@ds.e/scss/lib/Margin.css","@ds.e/scss/lib/Select.css":"../../../node_modules/@ds.e/scss/lib/Select.css"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","react-dom/client":"../../../node_modules/react-dom/client.js","@gkarine/react":"../../../node_modules/@gkarine/react/lib/index.js","@gkarine/scss/lib/Utilities.css":"../../../node_modules/@gkarine/scss/lib/Utilities.css","@gkarine/scss/lib/Text.css":"../../../node_modules/@gkarine/scss/lib/Text.css","@gkarine/scss/lib/global.css":"../../../node_modules/@gkarine/scss/lib/global.css","@gkarine/scss/lib/Margin.css":"../../../node_modules/@gkarine/scss/lib/Margin.css","@gkarine/scss/lib/Select.css":"../../../node_modules/@gkarine/scss/lib/Select.css"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

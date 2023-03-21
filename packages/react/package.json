@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/react",
+  "name": "@gkarine/react",
   "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
@@ -34,8 +34,12 @@
     "typescript": "^5.0.2"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@ds.e/react@1.0.0",
+  "_id": "@gkarine/react@1.0.0",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "370e62d4cc7ed5f9a602e378c9a41fbe575025f5",
+  "files": [
+    "lib"
+  ]
 }

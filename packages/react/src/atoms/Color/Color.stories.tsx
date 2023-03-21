@@ -2,9 +2,9 @@ import React from "react";
 
 import Color from "./Color";
 import { text, select } from "@storybook/addon-knobs";
-import "@ds.e/scss/lib/Utilities.css";
+import "@gkarine/scss/lib/Utilities.css";
 
-import Spacing from "@ds.e/foundation/lib/Spacing";
+import Spacing from "@gkarine/foundation/lib/Spacing";
 
 export default {
   title: "Atoms/Color",

@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/scss",
+  "name": "@gkarine/scss",
   "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "author": "karine <gulkarine@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1",
     "postcss": "8.3.11",
@@ -36,5 +36,10 @@
   "repository": "https://github.com/Karine91/advanced-react-for-enterprise.git",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "370e62d4cc7ed5f9a602e378c9a41fbe575025f5",
+  "files": [
+    "lib",
+    "src"
+  ]
 }

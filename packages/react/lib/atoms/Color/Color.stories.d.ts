@@ -1,7 +1,7 @@
 /// <reference types="react" />
-import "@ds.e/scss/lib/Utilities.css";
+import "@gkarine/scss/lib/Utilities.css";
 declare const _default: {
-    title: string;
+  title: string;
 };
 export default _default;
 export declare const Common: () => JSX.Element;
