@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "stylelint \"./**/*.scss\"",
     "lint:fix": "yarn lint --fix",
-    "prepare": "husky install",
     "build": "node src/scripts/build.js",
     "dev": "nodemon --watch src --exec yarn build -e scss"
   },
@@ -37,7 +36,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "4cbe3c49274127e7a528dcd7fe0adb90f4f165f7",
+  "gitHead": "7f82a19a6e59ad98c36e4e0496035a058ec477d4",
   "files": [
     "lib",
     "src"
