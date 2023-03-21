@@ -6,6 +6,8 @@
   "author": "karine <gulkarine@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^6.5.1"
   },
   "workspaces": {
@@ -20,11 +22,17 @@
   "private": true,
   "scripts": {
     "build": "yarn lerna run build",
-    "dev":  "yarn lerna run dev",
+    "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
-    "publish": "yarn build && yarn test && yarn lerna publish"
+    "publish": "yarn build && yarn test && yarn lerna publish",
+    "commit": "npx cz"
   },
   "lint-staged": {
     "packages/scss/*.scss": "yarn lint:fix"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
