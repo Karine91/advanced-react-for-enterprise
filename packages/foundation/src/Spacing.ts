@@ -4,7 +4,7 @@ const spaces = {
   xxs: 'xxs',
   xs: 'xs',
   sm: 'sm',
-  md: 'md',
+  md: 'md', // 24px
   lg: 'lg',
   xl: 'xl',
   xxl: 'xxl',

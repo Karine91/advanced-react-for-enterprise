@@ -1,3 +1,5 @@
+@use "sass:map";
+
 @import "../foundation/all";
 
 .dse-select {
@@ -10,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: green;
+    color: $green;
 
     @include padding("xs");
     border: 1px solid $form-border-color;
@@ -44,7 +46,7 @@
 
     list-style-type: none;
 
-    box-shadow: map-get($shadows, "base");
+    box-shadow: map.get($shadows, "base");
 
     position: absolute;
 

@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "stylelint \"./**/*.scss\"",
     "lint:fix": "yarn lint --fix",
+    "prepare": "husky install",
     "build": "node src/scripts/build.js",
     "dev": "nodemon --watch src --exec yarn build -e scss"
   },
