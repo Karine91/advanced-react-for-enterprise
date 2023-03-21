@@ -1,12 +1,9 @@
-import React$1 from "react";
-import { Spacing } from "@gkarine/foundation";
+import React$1 from 'react';
+import { Spacing } from '@gkarine/foundation';
 
-const Color = ({ hexCode, width = Spacing.sm, height = Spacing.sm }) => {
-  const className = `dse-width-${width} dse-height-${height}`;
-  return React$1.createElement("div", {
-    className: className,
-    style: { backgroundColor: hexCode },
-  });
+const Color = ({ hexCode, width = Spacing.sm, height = Spacing.sm, }) => {
+    const className = `dse-width-${width} dse-height-${height}`;
+    return React$1.createElement("div", { className: className, style: { backgroundColor: hexCode } });
 };
 
 export default Color;
