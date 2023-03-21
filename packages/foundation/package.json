@@ -19,7 +19,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "370e62d4cc7ed5f9a602e378c9a41fbe575025f5",
+  "gitHead": "2cab4ee85bd4d992bf00442ea233eeb3c40f672b",
   "files": [
     "lib"
   ]
