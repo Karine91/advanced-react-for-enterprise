@@ -448,3 +448,8 @@ template {
 }
 
 /*=====         End of Base            ======*/
+body {
+  font-family: var(--dse-body-font-family, "Playfair Display", serif);
+  font-size: var(--dse-body-font-size, 0.875rem);
+  font-weight: var(--dse-body-font-weight, 400);
+}
