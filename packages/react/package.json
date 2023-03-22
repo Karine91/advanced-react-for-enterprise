@@ -10,7 +10,7 @@
     "test:watch": "yarn test --watch",
     "start-storybook": "start-storybook",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=b2e82606b07e"
+    "test:chromatic": "npx chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
   },
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",

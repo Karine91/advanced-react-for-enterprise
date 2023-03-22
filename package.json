@@ -28,7 +28,8 @@
     "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
     "publish": "yarn build && yarn test && yarn lerna publish",
-    "commit": "npx cz"
+    "commit": "npx cz",
+    "test:chromatic": "yarn lerna run test:chromatic"
   },
   "lint-staged": {
     "packages/scss/*.scss": "yarn lint:fix"
