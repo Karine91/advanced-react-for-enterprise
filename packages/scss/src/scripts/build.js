@@ -24,6 +24,9 @@ const compile = (filePath, fileName) => {
   fs.writeFileSync(path.resolve(fileName), result.css.toString());
 };
 
+const libDir = path.resolve("lib");
+if (!fs.existsSync(libDir)) fs.mkdirSync(libDir);
+
 compile("src/global.scss", "lib/global.css");
 
 getComponents().forEach((component) =>
