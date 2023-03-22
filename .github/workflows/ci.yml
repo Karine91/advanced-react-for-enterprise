@@ -7,8 +7,6 @@ on:
     pull_request:
       branches:
         - master
-runs:
-  using: 'node16'
   
 jobs:
   builds:
