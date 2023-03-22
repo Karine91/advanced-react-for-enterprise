@@ -31,7 +31,8 @@
     "react": "^18.2.0",
     "rollup": "2.22.1",
     "rollup-plugin-typescript2": "0.27.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "@gkarine/foundation": "^0.1.4"
   },
   "readme": "ERROR: No README data found!",
   "_id": "@gkarine/react@1.0.0",
