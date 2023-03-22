@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
+        with:
+          fetch-depth: 0 # 👈 Required to retrieve git history
       - name: Install dependencies
         run: yarn
       - name: Build packages
