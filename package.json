@@ -27,10 +27,10 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
-    "publish": "yarn build && yarn test && yarn lerna publish",
+    "publish": "yarn build && yarn test && yarn lerna run publish",
     "commit": "npx cz",
     "test:chromatic": "yarn lerna run test:chromatic",
-    "build:storybook": "yarn build && yarn lerna build-storybook"
+    "build:storybook": "yarn build && yarn lerna run build-storybook"
   },
   "lint-staged": {
     "packages/scss/*.scss": "yarn lint:fix"
